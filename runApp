@@ -1,0 +1,17 @@
+
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Baatacheet',
+      theme: ThemeData(
+      
+        scaffoldBackgroundColor: Colors.white,
+        appBarTheme: AppBarTheme(
+          color: Colors.blue,
+        ),
+        backgroundColor: Colors.white,
+        splashColor: Colors.transparent,
+      ),
+      home: MyApp(),
+    ),
+  );
